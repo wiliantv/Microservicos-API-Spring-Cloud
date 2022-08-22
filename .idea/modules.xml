@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservicos-APIRest.iml" filepath="$PROJECT_DIR$/.idea/Microservicos-APIRest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-admin-service/api-admin-service.iml" filepath="$PROJECT_DIR$/api-admin-service/api-admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-config-service/api-config-service.iml" filepath="$PROJECT_DIR$/api-config-service/api-config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-discovery-service/api-discovery-service.iml" filepath="$PROJECT_DIR$/api-discovery-service/api-discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" filepath="$PROJECT_DIR$/api-gateway-service/api-gateway-service.iml" />
+    </modules>
+  </component>
+</project>
