@@ -12,6 +12,7 @@
     <artifactId>gateway-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-gateway-service</name>
+    <packaging>jar</packaging>
     <description>api-gateway-service</description>
     <properties>
         <java.version>17</java.version>
@@ -83,6 +84,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>gateway</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

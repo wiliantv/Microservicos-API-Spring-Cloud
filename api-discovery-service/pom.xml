@@ -12,6 +12,7 @@
 	<artifactId>discovery-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api-discovery-service</name>
+	<packaging>jar</packaging>
 	<description>api-discovery-service</description>
 	<properties>
 		<java.version>17</java.version>
@@ -56,6 +57,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>discovery</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

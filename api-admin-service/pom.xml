@@ -12,6 +12,7 @@
     <artifactId>admin-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-admin-service</name>
+    <packaging>jar</packaging>
     <description>api-admin-service</description>
     <properties>
         <java.version>17</java.version>
@@ -72,6 +73,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>admin</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

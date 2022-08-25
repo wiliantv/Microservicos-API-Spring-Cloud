@@ -12,6 +12,7 @@
     <artifactId>config-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-config-service</name>
+    <packaging>jar</packaging>
     <description>api-config-service</description>
     <properties>
         <java.version>17</java.version>
@@ -48,6 +49,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>config</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
