@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: file:../config-repo
+          uri: ${CONFIG_GIT_URL:file:../config-repo}
 #        native:
 #          searchLocations: file:./config
 
